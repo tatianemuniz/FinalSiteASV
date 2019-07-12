@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Formulário para Cotação</title>
+        <link rel="stylesheet" href="CSS_cotacao.CSS">
+        <link rel="stylesheet" href="../Menus/menus.css">
+    </head>
+    <body>
+        <!--MENU-->
+		<div id="logo" > <a href=""> </a>
+			<img src="_imagens/logo2.jpg" style="width:160px; height:95px; margin-left:5px; margin-top:-25px;"/>
+			<div id="menu">
+                    <ul id="liMenu">
+                        <li> <a href="index/index.html"> INÍCIO</a> </li>
+                        <li> <a href="quemSomos/quemSomos.html"> QUEM SOMOS </a> </li>
+                        <li> <a href="ondeEstamos/ondeEstamos.html"> ONDE ESTAMOS </a> </li>
+                        <li> <a href=""> SEGUROS </a> </li>
+                        <li> <a href=""> CONTATO </a> </li>
+                    </ul>
+			</div>	
+		</div>	
+		<div id="pai" >				
+            <div class="div1">
+                <p class="titulo"> Preencha as informações abaixo. Logo entraremos em contato. </p>
+            </div>
+            <div class="formulario"> 
+                <form>
+                    <p class=""> Seu nome: <input type="text" name="name" placeholder="Insira seu nome"/> </p> 
+                    <p > Número para contato: <input type="num" name="numero" placeholder="Tel/Celular"/></p>
+                    <p> E-mail para contato: <input type="text" name="email" placeholder="e-mail"/></p>
+                        Qual opção de seguro: <select name="seguro" class="form">
+                            <label><option value=""></option></label>
+                            <label><option value="auto">Auto</option></label>
+                            <label><option value="vida">Vida</option></label>
+                            <label><option value="saude">Saúde</option></label>
+                            <label><option value="residencial">Residencial</option></label>
+                            <label><option value="outros">Outro</option></label>
+                        </select><br>
+                </form>
+                <button type="button" name="" value="" id="button1"> ENVIAR </button>
+            </div>
+		</div>	
+    </body>
+</html>

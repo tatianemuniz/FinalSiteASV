@@ -1,0 +1,120 @@
+body{
+    background: rgb(236, 234, 234);
+}
+#logo{
+	height: 75px;
+	padding-left:120px;
+	padding-top: 30px;
+	background:#000000; 
+	font-family: arial;
+	color: white;
+	font-size: 40px;
+	display: flex;
+}
+#menu{
+	font-size: 18px;
+	color: white;
+	margin-top: 0px;
+}
+a{
+	color: white;
+	text-decoration: none;
+	
+}
+li{
+	list-style: none;
+	display: flex;
+	padding: 2px 20px;
+    margin-left:20px;
+}
+#liMenu{
+    display: flex;
+}
+#pai{
+    width: 90%;
+    height: 600px;
+    border-radius:10px;
+    margin-left: 5%;
+    margin-top:25px;
+    display: flex;
+    background: #B22222;
+
+}
+#titulo{
+    width:50%;
+    height:669px;
+    font-family:monospace;
+    font-size: 20px;
+    text-align: center;
+    padding-left:12px;
+    padding-top: 30px;
+    color: whitesmoke;
+
+}
+.imagem{
+    float:right;
+    width:32%;
+    height:500px;
+    margin-left:7%;
+    margin-top:37px;
+    border-radius: 5px;
+    border:15px solid rgb(255, 255, 255);
+}
+#texto{
+    width: 90%;
+    height:370px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius:13px;
+    margin-left:14%;
+    padding-top:10px;
+}
+#texto2{
+    text-align: center;
+    width: 80%;
+    height:330px;
+    margin-left:55px;
+    margin-top:25px;
+    font-size: 15px;
+    padding-left: 4px;
+}
+#pai2{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    margin-top: 20px;
+    background: rgb(236, 234, 234);
+    border-radius:13px;
+}
+.divs3{
+    width: 280px;
+    height: 350px;
+    background:white;
+    text-align: center;
+    font-family: monospace;
+    font-size:16px;
+    color: #B22222;
+    border-radius: 10px;
+    border:3px solid #B22222;
+    margin-left:60px;
+    margin-top: 20px;
+}
+.imagensMVV{
+    width:110px;
+    height: 110px;
+    padding-left:5px;
+    padding-top:19px;
+}
+#bottom{
+	background:rgb(0, 0, 0);
+	height:50px;
+	margin-top: 15px;
+	text-align: right;
+	padding-right:25px;
+	padding-top: 20px;	
+	font-size: 11px;
+	color: white;
+	font-family:monospace; 
+}
+#texto2{
+    font-size: 25px; 
+}

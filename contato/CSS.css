@@ -1,0 +1,164 @@
+#logo{
+	height: 75px;
+	padding-left:120px;
+	padding-top: 30px;
+	background:#000000; 
+	font-family: arial;
+	color: white;
+	font-size: 40px;
+	display: flex;
+}
+#menu{
+	font-size: 18px;
+	color: white;
+    margin-top: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+a{
+	color: white;
+	text-decoration: none;
+	
+}
+li{
+	list-style: none;
+	display: flex;
+	padding: 2px 20px;
+	margin-left:20px;
+}
+#liMenu{
+    display: flex;
+}
+#container{
+    width: 78%;
+    height:750px;
+    border: 5px solid #B22222;
+    border-radius: 20px;
+    margin-left:10%;
+    margin-top:20px;
+    background: rgb(236, 234, 234);
+    overflow: scroll;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+strong{
+    color: #B22222;
+    font-weight: bold;
+}
+#titulo{
+    font-family: 'Open Sans', sans-serif;
+    width:60%;
+    height:100px;
+    padding-left:30px;
+    font-size:40px;
+}
+.titulo2{
+    margin-top: -85px;
+    margin-bottom: 40px;
+    font-size: 22px;
+}
+#titulo3{
+    margin-top:55px;
+    text-align: center;
+    font-family:  'Open Sans', sans-serif;
+    font-size: 22px;
+}
+#form{
+    width:50%;
+    height:430px;
+    padding-top: 13%;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+form{
+
+    height: 350px;
+}
+::placeholder{
+    text-align: center;
+}
+/* Editando apenas o  */
+input{
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+    height: 30px;
+}
+/*Alterando apenas os input's de tipo texto */
+
+input[type=text]{
+transition: 1s;
+width: 150px;
+border: 1px solid black;
+border-radius: 10px;
+margin-top: 15px;
+height: 30px;
+}
+
+input[type=text]:hover{
+    transition: 1s;
+    width: 200px;
+}
+/* Input do tipo email */
+
+input[type=email]{
+    transition: 1s;
+    width: 150px;
+}
+input[type=email]:hover{
+    width: 200px;
+    transition: 1s;
+}
+textarea{
+    border-radius: 10px;
+    border: 1px solid black;
+}
+#contato2{
+    width:49.5%;
+    height:470px;
+    float: right;
+    margin-top:-565px;
+}
+#contato1{
+    border: 3px solid #B22222;
+    margin: 10px;
+    text-align: center;
+    width: 50%;
+    margin-left: 25%;
+    border-radius: 30px;
+    margin-top: 65px;
+    padding-top:15px;
+    padding-bottom:15px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bolder;
+}
+#vertical{
+    transform: rotateX(90deg);
+}
+
+textarea{
+    text-align: center;
+    padding: 5px;
+
+}
+input[type=submit]{
+    width: 65px;
+    border: 2px solid #B22222;
+    transition: 1s;
+}
+input[type=submit]:hover{
+    transition: 1s;
+    width: 75px;
+    background: rgba(178, 34, 34, 0.712);
+    cursor: pointer;
+}
+#pinfo{
+    color: #B22222;
+    transition: 2s;
+}
+#pinfo:hover{
+    transition: 1s;
+    color: black;
+    text-decoration: underline;
+}
+

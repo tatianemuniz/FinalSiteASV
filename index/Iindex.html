@@ -1,0 +1,108 @@
+<!doctype html>
+<html>
+	<head>
+		<title> ASV Corretora de Seguros </title>
+		<meta charset="UTF-8"/>
+		<link rel="stylesheet" href="CSS.css" />
+		<script>
+			function gif(){
+				document.getElementById("gif").src = "_imagens/maps4.gif";
+			}
+			function img(){
+				document.getElementById("gif").src = "_imagens/maps2.jpg"
+			}
+		</script>		
+	</head>
+	<body>
+		<!--MENU-->
+		<div id="logo" > <a href=""> </a>
+			<img src="_imagens/logo2.jpg" style="width:160px; height:95px; margin-left:5px; margin-top:-25px;"/>
+			<div id="menu">
+				<ul id="liMenu">
+				<li> <a href=""> INÍCIO</a> </li>
+				<li> <a href=""> QUEM SOMOS </a> </li>
+				<li> <a href=""> ONDE ESTAMOS </a> </li>
+				<li> <a href=""> CONTATO </a> </li>
+				<li> <a href=""> TRABALHE CONOSCO </a> </li>
+				</ul>
+			</div>	
+		</div>
+	
+		<div id="pai" >				
+			<div id="centro1">
+			<span> <p> TEXTO </p> </span>			
+			</div>
+		</div>	
+		<div id="pai2">
+			<div class="divs4" > 
+				<img src="_imagens/safecar.jpg" alt="Seguro Auto" class="safeImagens">
+				<h2 class="titulosH3"> SEGURO AUTO </h2>
+				<span>  </span>
+			</div>
+			<div class="divs4">
+				<img src="_imagens/safelife.jpg" alt="Seguro Vida" class="safeImagens">
+				<h3 class="titulosH3"> SEGURO DE VIDA </h3>
+			</div>
+			<div class="divs4">
+				<img src="_imagens/safehealth.jpg" alt="Seguro Saúde" class="safeImagens">
+				<h3 class="titulosH3"> PLANOS DE SAÚDE </h3>
+			</div>
+			<div class="divs4">
+				<img src="_imagens/safehouse.jpg" alt="Seguro Residencial" class="safeImagens">
+				<h3 class="titulosH3"> SEGURO RESIDENCIAL </h3>
+			</div>
+		</div>
+			<div id="bottom">
+				<a style="color:black;"> Telefone: 475 0000 000 </a> <br/>
+				<a style="color:black;"> info@youcon.com.uk </a>
+			</div>
+			<div style="background:#DCDCDC; font-family:monospace; text-align:center; height:20px;">
+				Todos os Direitos Reservados | 2019
+            </div>
+            
+            <!-- Lucas Ribeiro -->
+
+            <div class="icones">
+				<img src="_imagens/telefone.png" class="img-cont" alt="Contato">
+				<div class="telefone">
+					(11) Telefone
+				</div> 
+			</div>
+			<div class="end" onmouseover="gif()" onmouseout="img()" style="margin-top: -51.9%;">
+
+				<img src="_imagens/maps2.jpg" id="gif"  class="maps" alt="Contato">
+				<div class="endr">
+					Rua Atlanta alguma coisa
+				</div> 
+			</div>
+			<div class="info" style="margin-top: -46%;">
+
+					<img src="_imagens/informacoes.jpg" width="50px" class="informacao" alt="Contato">
+					<div class="">
+						<!-- Formulario -->
+						<form action="mailto:lucasribeirodesouza2000@gmai.com" method="POST" enctype="text/plain">
+							Nome: <input type="text" placeholder="Por favor insira o seu nome" name="nome" class="form"><br>
+							<br>
+							Celular: <input type="tel" name="cel" class="form"><br>
+							<br>
+							E-mail: <input type="email" placeholder="exemplo@exemplo.com" name="contato" class="form"><br>
+							<br>
+							Qual opção de seguro: <select name="seguro" class="form">
+								<label><option value=""></option></label>
+								<label><option value="auto">Auto</option></label>
+								<label><option value="carro">Vida</option></label>
+								<label><option value="carro">Saúde</option></label>
+								<label><option value="carro">Residencial</option></label>
+							</select><br>	
+							<br>
+							Por favor, deixe uma previa. <br>
+							<br>
+							<textarea name="msg" class="form" cols="30" rows="10" placeholder="Deixe sua mensagem"></textarea> <br>
+							
+							<input style="margin-left:22%;" type="submit" value="Enviar" class="btn">
+
+							<input type="reset" value="Limpar" class="btn">
+						</form>
+					</div> 
+				</div>
+</html>

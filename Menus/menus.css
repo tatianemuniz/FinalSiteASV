@@ -1,0 +1,10 @@
+li{
+    height: 55px;
+    margin-top: -48px;
+    padding-top: 50px;
+    transition: 1s;
+}
+li:hover{
+    transition: 1s;
+    background: rgba(255, 255, 255, 0.171);
+}
